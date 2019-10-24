@@ -42,6 +42,7 @@ Git
 
 - ESLint
 - HTMLHint
+- stylelint
 
 代码美化
 
@@ -56,6 +57,7 @@ Git
 - HTML CSS Support
 - JS JSX Snippets
 - Path Intellisense
+- Vetur
 
 注释
 

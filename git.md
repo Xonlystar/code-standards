@@ -26,9 +26,7 @@
 
 > 以上来自[开发分支管理模型之阿里 AoneFlow](https://segmentfault.com/a/1190000016373314)，<span style="color:red;">请认真阅读</span>
 
-## 分支规范
-
-### 命名
+### 分支规范
 
 功能分支：feature/{姓名简写}-{日期}-{主要功能} 例如：feature/zc-20190601-pay
 
@@ -36,10 +34,24 @@
 
 紧急发布分支：hotfix/{日期}-hotfix 例如：hotfix/20190601-hotfix
 
-### 提交
+### 代码提交
 
 遵循以下原则：
 
-1. 无 EsLint 错误（已强制检查）
-2. 必须说明本次提交的改动信息
-3. 量少多次，一次提交一个改动点
+1. 可读性好，清晰，不必深入看代码即可了解当前commit的作用
+2. 少量多次，一次提交一个功能或改动点
+3. 用于说明 commit 的类别，只允许使用下面7个标识
+
+    feat：新功能（feature）
+
+    fix：修补bug
+
+    docs：文档（documentation）
+
+    style： 格式（不影响代码运行的变动）
+
+    refactor：重构（即不是新增功能，也不是修改bug的代码变动）
+
+    test：增加测试
+
+    chore：构建过程或辅助工具的变动
