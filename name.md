@@ -350,14 +350,14 @@ export const PRIMARY_COLOR = '#b6782b'
 
 ## 事件回调
 
-以`on`开头
+以`handle`开头
 
 ```jsx
-onSummaryExport = () => {}
+handleSummaryExport = () => {}
 ```
 
 ```jsx
-<input onChange={onNameChange} />
+<input onChange={this.handleSummaryExport} />
 ```
 
 ## 发起 Ajax 请求方法名
